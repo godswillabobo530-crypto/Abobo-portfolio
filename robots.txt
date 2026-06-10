@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://godswillabobo530-crypto.github.io/Abobo-portfolio/sitemap.xml
