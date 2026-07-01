@@ -3,138 +3,327 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Hello i'm Godswill Abobo, I'm delighted to have you here. This space showcases my work, creativity, and dedication to delivering impactful solutions. Explore my projects, discover my skills, and see how I bring ideas to life with precision and passion.">
+    <meta name="description"
+        content="Godswill Abobo is a web developer and creative problem solver building polished digital experiences with modern frontend craft.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Abobo, portfolio, projects, web developer, CSS, HTML, JavaScript, frontend">
-    <meta name="author" content="Abobo">
+    <meta name="keywords" content="Godswill Abobo, portfolio, web developer, frontend, UI/UX, projects">
+    <meta name="author" content="Godswill Abobo">
     <meta name="robots" content="index, follow">
-    <title>Abobo Portfolio - Web Developer</title>
+    <title>Abobo Godswill | Web Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <meta name="google-site-verification" content="5W-yJelsXPeNJZy-bWTqM_Vrw6N3IlExjQlDbB0rMYM" />
 </head>
 
 <body>
-    <header>
-        <div class="container header-inner">
-            <h1>Abobo Portfolio</h1>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="#hero">Abobo Godswill</a>
             <nav aria-label="Main navigation">
-                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </nav>
-            <button id="toggle-theme" aria-label="Toggle theme" class="theme-toggle" aria-pressed="false">🌙</button>
+            <button id="toggle-theme" class="theme-toggle" aria-label="Toggle theme" aria-pressed="false">☀️</button>
         </div>
     </header>
 
-    <section id="hero" class="section-card hero">
-        <div class="profile">
-            <img src="profile.jpg" alt="Godswills Profile Picture" class="profile-pic">
-            <h2 class="section-heading">Welcome to Abobo Portfolio</h2>
-            <p>Im delighted to have you here. This space showcases my work, creativity, and dedication to delivering
-                impactful solutions. Explore my projects, discover my skills, and see how I bring ideas to life with
-                precision and passion.
-
-                Thank you for visiting your journey through my portfolio starts now.</p>
-        </div>
-    </section>
-
-
-    <section id="about" class="section-card">
-        <h2 class="section-heading">About Me</h2>
-        <p>Hello, Im Godswill Abobo, a passionate creative and problem solver dedicated to delivering impactful digital
-            solutions. With a strong focus on design, innovation, and functionality, I transform ideas into experiences
-            that inspire and connect.
-
-            My journey is fueled by curiosity and a commitment to excellence. Whether its crafting sleek visuals,
-            building intuitive interfaces, or collaborating on meaningful projects, I bring creativity and precision to
-            every detail.
-
-            Beyond the work, I value growth, collaboration, and the power of turning vision into reality. This portfolio
-            is a reflection of my skills, my dedication, and the stories I help bring to life.</p>
-    </section>
-
-    <section id="projects" class="section-card">
-        <h2 class="section-heading">My Work</h2>
-        <div class="projects-grid">
-            <article class="project">
-                <a class="project-thumb" href="https://godswillabobo530-crypto.github.io/instagram-profile-clone"
-                    target="_blank" rel="noopener">
-                    <img src="instagram-profile.png" alt="Instagram Profile screenshot" width="320" height="100"
-                        loading="lazy"
-                        onerror="this.onerror=null;this.src='https://via.placeholder.com/320x100?text=Instagram+Profile'">
-                </a>
-
-                <div class="project-plate details">
-                    <h3>Instagram Profile Project</h3>
-                    <p class="project-summary">A responsive Instagram profile clone that showcases layout, interactions,
-                        and accessible UI components aimed at demonstrating frontend craftsmanship.</p>
-
-                    <ul class="tech-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-
-                    <p class="project-links"><a href="https://godswillabobo530-crypto.github.io/instagram-profile-clone"
-                            target="_blank" rel="noopener">View Project</a></p>
+    <main>
+        <section id="hero" class="section hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Available for freelance projects and full-time opportunities</p>
+                    <h1>Web Developer & Creative Problem Solver</h1>
+                    <p class="lead">I build thoughtful digital experiences that blend clean code, accessible interfaces,
+                        and clear visual storytelling. My work turns ideas into polished products that feel intuitive
+                        and memorable.</p>
+                    <div class="hero-meta">
+                        <span>📍 calabar, Nigeria</span>
+                        <span>🟢 Open to new collaborations</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#contact">Contact Me</a>
+                        <a class="btn btn-secondary" href="#projects">View Projects</a>
+                    </div>
                 </div>
-            </article>
-
-            <!-- Added project: Software Engineering Department site -->
-            <article class="project">
-                <a class="project-thumb" href="https://godswillabobo530-crypto.github.io/software-engineering-department-site"
-                    target="_blank" rel="noopener">
-                    <img src="https://raw.githubusercontent.com/godswillabobo530-crypto/software-engineering-department-site/main/logo.png"
-                        alt="Software Engineering Department screenshot" width="320" height="200" loading="lazy"
-                        onerror="this.onerror=null;this.src='https://via.placeholder.com/320x200?text=Department+Site'">
-                </a>
-
-                <div class="project-plate details">
-                    <h3>Software Engineering Department Site</h3>
-                    <p class="project-summary">An informational website for the Department of Software Engineering showcasing programs, staff profiles, and course offerings. Built with semantic HTML, accessible components, and responsive design.</p>
-
-                    <ul class="tech-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-
-                    <p class="project-links"><a href="https://godswillabobo530-crypto.github.io/software-engineering-department-site"
-                            target="_blank" rel="noopener">view project</a> · <a href="https://github.com/godswillabobo530-crypto/software-engineering-department-site" target="_blank" rel="noopener"></a></p>
+                <div class="profile-card">
+                    <img src="profile.jpg" alt="Abobo Godswill portrait" class="profile-pic">
+                    <p>Hello, I’m Abobo Godswill, a passionate creative and problem solver dedicated to delivering
+                        impactful digital solutions. I focus on design, innovation, and functionality to make every
+                        interface feel purposeful and human-centered.</p>
                 </div>
-            </article>
+            </div>
+        </section>
 
-            <article class="project">
-                 <a class="project-thumb" href=https://github.com/godswillabobo530-crypto/modern-calculator"
-                     target="_blank" rel="noopener">
-                     img src="lator.jpg" alt= "lator screenshot" width="320" height="200"
-                        loading="lazy"
-                        onerror="this.onerror=null;this.src='https://via.placeholder.com/320x200?text=lator'">
-                </a>
+        <section id="skills" class="section">
+            <div class="container">
+                <p class="section-number">01. SKILLS</p>
+                <div class="section-heading-row">
+                    <h2>Capabilities shaped for modern product teams.</h2>
+                    <p>I combine frontend and backend craftsmanship, thoughtful systems thinking, and visual clarity to
+                        deliver work
+                        that feels both practical and polished.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="info-card">
+                        <div class="card-icon">💻</div>
+                        <h3>Frontend Developer</h3>
+                        <p>Creating responsive interfaces with strong structure, performance, and clean interactions.
+                        </p>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Layouts</li>
+                            <li>Accessibility</li>
+                        </ul>
+                    </article>
+                    <article class="info-card">
+                        <div class="card-icon">⚙️</div>
+                        <h3>Backend Developer</h3>
+                        <p>Building reliable logic and data flows that keep products stable, useful, and scalable.</p>
+                        <ul>
+                            <li>API Integration</li>
+                            <li>Problem Solving</li>
+                            <li>Logic & Data Handling</li>
+                            <li>Workflow Automation</li>
+                        </ul>
+                    </article>
+                    <article class="info-card">
+                        <div class="card-icon">🎨</div>
+                        <h3>UI/UX Designer</h3>
+                        <p>Shaping clear visual systems and user journeys that feel intuitive from the first click.</p>
+                        <ul>
+                            <li>Visual Design</li>
+                            <li>Interface Thinking</li>
+                            <li>Prototyping</li>
+                            <li>Design Consistency</li>
+                        </ul>
+                    </article>
+                    <article class="info-card">
+                        <div class="card-icon">🛡️</div>
+                        <h3>Cybersecurity Specialist</h3>
+                        <p>Protecting systems, data, and digital environments through risk awareness, defense-minded
+                            thinking, and secure practices.</p>
+                        <ul>
+                            <li>Threat Awareness</li>
+                            <li>Security Best Practices</li>
+                            <li>Risk Assessment</li>
+                            <li>Secure Digital Systems</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-                <div class="project-plate details">
-                    <h3>web calculator</h3>
-                    <p class="project-summary">Modern calculator supporting basic arithmetic, advanced functions, and a responsive design.
+        <section id="experience" class="section">
+            <div class="container">
+                <p class="section-number">02. EXPERIENCE</p>
+                <div class="section-heading-row">
+                    <h2>Selected experience logs.</h2>
+                    <p>My recent work is framed as product-focused execution, from interface detail to delivery, ready
+                        outcomes.</p>
+                </div>
+                <div class="timeline-list">
+                    <article class="timeline-card">
+                        <span class="timeline-year">2024 — Present</span>
+                        <h3>Led frontend development for Instagram Profile Clone</h3>
+                        <p>Focused on responsive layouts, accessible UI components, and polished interactions to mirror
+                            a modern social experience.</p>
+                    </article>
+                    <article class="timeline-card">
+                        <span class="timeline-year">2024 — Present</span>
+                        <h3>Designed and shipped a personal portfolio experience</h3>
+                        <p>Built a clear digital presence that highlights projects, services, and contact paths with a
+                            calm, modern visual voice.</p>
+                    </article>
+                    <article class="timeline-card">
+                        <span class="timeline-year">2024 — Present</span>
+                        <h3>Designed a department website featuring academic programs, faculty profiles, research, and
+                            student resources.</h3>
+                        <p>Built a responsive, accessible website that effectively communicates the department's
+                            offerings and fosters engagement.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-                    <ul class="tech-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
+        <section id="projects" class="section">
+            <div class="container">
+                <p class="section-number">03. PROJECTS</p>
+                <div class="section-heading-row">
+                    <h2>Case studies from recent builds.</h2>
+                    <p>Each project is presented like a concise professional review, what the problem was, how it was
+                        approached, and what changed.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="case-study-card">
+                        <div class="case-study-top">
+                            <p class="case-study-label">Featured Project</p>
+                            <a href="https://godswillabobo530-crypto.github.io/instagram-profile-clone" target="_blank"
+                                rel="noopener">View Project ↗</a>
+                        </div>
+                        <h3>Instagram Profile Clone</h3>
+                        <div class="case-study-body">
+                            <div>
+                                <h4>Problem</h4>
+                                <p>Recreate a familiar social media profile experience with polished responsive
+                                    structure and carefully considered UI states.</p>
+                            </div>
+                            <div>
+                                <h4>Outcome</h4>
+                                <p>Delivered a clean, responsive profile interface that highlights layout balance,
+                                    component clarity, and accessible choices.</p>
+                            </div>
+                            <div>
+                                <h4>Role & Tools</h4>
+                                <p>Frontend implementation and UI refinement using HTML, CSS, and JavaScript.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="case-study-card">
+                        <div class="case-study-top">
+                            <p class="case-study-label">Personal Portfolio</p>
+                            <a href="https://godswillabobo530-crypto.github.io/Abobo-portfolio/" target="_blank"
+                                rel="noopener noreferrer">View Site ↗</a>
+                        </div>
+                        <h3>Abobo Godswill Portfolio</h3>
+                        <div class="case-study-body">
+                            <div>
+                                <h4>Problem</h4>
+                                <p>Present work and personality in a way that feels confident, modern, and easy to
+                                    navigate.</p>
+                            </div>
+                            <div>
+                                <h4>Outcome</h4>
+                                <p>Created a focused personal site that organizes skills, projects, and contact details
+                                    into a clear, professional story.</p>
+                            </div>
+                            <div>
+                                <h4>Role & Tools</h4>
+                                <p>Content structure, visual direction, and frontend implementation using HTML, CSS, and
+                                    JavaScript.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="case-study-card">
+                        <div class="case-study-top">
+                            <p class="case-study-label">Featured project</p>
+                            <a href="https://godswillabobo530-crypto.github.io/software-engineering-department-site/"
+                                target="_blank" rel="noopener">View Project ↗</a>
+                        </div>
+                        <h3>Software Engineering Department Site</h3>
+                        <div class="case-study-body">
+                            <div>
+                                <h4>Problem</h4>
+                                <p>Needed a clear, modern online presence for a software engineering department that
+                                    could showcase academic programs, faculty, research, and student resources in a
+                                    structured way.</p>
+                            </div>
+                            <div>
+                                <h4>Outcome</h4>
+                                <p>Designed a responsive, accessible department website experience that improves
+                                    communication, promotes engagement, and presents the department in a polished
+                                    digital format.</p>
+                            </div>
+                            <div>
+                                <h4>Role & Tools</h4>
+                                <p>Led the planning and frontend build, focusing on layout, content structure, and
+                                    user-friendly presentation using HTML, CSS, and JavaScript.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <div class="container">
+                <p class="section-number">04. TESTIMONIALS</p>
+                <div class="section-heading-row">
+                    <h2>Collaborator notes.</h2>
+                    <p>Placeholder space for quotes from mentors, teammates, or clients as the network grows.</p>
+                </div>
+                <div class="testimonial-grid">
+                    <article class="testimonial-card">
+                        <p>“A thoughtful and dependable collaborator who brings clarity to design and a calm approach to
+                            execution.”</p>
+                        <strong> Mentor / Collaborator</strong>
+                    </article>
+                    <article class="testimonial-card">
+                        <p>“Focused on building experiences that are both practical and visually engaging.”</p>
+                        <strong> Team Partner</strong>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <p class="section-number">05. EDUCATION & TRAINING</p>
+                <div class="section-heading-row">
+                    <h2>Learning with intention.</h2>
+                    <p>My education and self-directed practice continue to shape how I approach product work and code
+                        quality.</p>
+                </div>
+                <div class="education-grid">
+                    <article class="info-card">
+                        <h3>Software Engineering</h3>
+                        <p>Focused on building the foundations for problem-solving, communication, and technical growth
+                            in a digital-first environment.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Ongoing Learning</h3>
+                        <ul>
+                            <li>Modern frontend architecture</li>
+                            <li>Accessible UI systems</li>
+                            <li>Creative coding and visual storytelling</li>
+                            <li>Continuous improvement through real projects</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container contact-grid">
+                <div class="contact-copy">
+                    <p class="section-number">06. CONTACT</p>
+                    <h2>Let’s build something meaningful.</h2>
+                    <p>I’m always interested in thoughtful collaborations, product ideas, and new opportunities to
+                        create useful experiences.</p>
+                    <ul class="contact-list">
+                        <li><a href="mailto:godswillabobo530@gmail.com">godswillabobo530@gmail.com</a></li>
+                        <li><a href="https://github.com/godswillabobo530-crypto" target="_blank"
+                                rel="noopener">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/godswill-abobo-b5a0693a9" target="_blank"
+                                rel="noopener">LinkedIn</a></li>
                     </ul>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="Your email" required>
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="5" placeholder="Tell me about your idea" required></textarea>
+                    </label>
+                    <button class="btn btn-primary" type="submit">Send Message</button>
+                    <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
 
-                    <p class="project-links"><a href=https://github.com/godswillabobo530-crypto/modern-calculator"
-                        target="_blank" rel="noopener">View Project</a></p>      
-        </div>
-    </section>
-
-    <section id="contact" class="section-card">
-        <h2 class="section-heading">Contact Me</h2>
-        <p>Email: godswillabobo530@gmail.com</p>
-    </section>
-
-    <footer>
+    <footer class="site-footer">
         <div class="container footer-inner">
-            <p>&copy; 2026 Abobo Portfolio</p>
+            <p>© 2026 Abobo Godswill</p>
             <div class="social-links">
                 <a href="https://github.com/godswillabobo530-crypto" target="_blank" rel="noopener">GitHub</a>
                 <a href="https://www.linkedin.com/in/godswill-abobo-b5a0693a9" target="_blank"
@@ -142,6 +331,7 @@
             </div>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 
